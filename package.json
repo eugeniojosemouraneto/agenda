@@ -1,0 +1,22 @@
+{
+  "name": "agenda",
+  "version": "1.0.0",
+  "description": "project focused on managing a user's tasks and commitments",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "npx tsc src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "agenda.git"
+  },
+  "author": "Eugênio José Moura Neto",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "fastify": "^5.0.0"
+  }
+}
